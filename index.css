@@ -1,5 +1,8 @@
 body * {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -85,46 +88,69 @@ header .word-2 {
     border-radius: 5px;
 }
 
-.apod-image {
+.apod-media {
     width: 100%;
     box-shadow: 0 2px 5px #00000055;
 }
 
-/* .apod-details {
-    padding: 0 10px;
-} */
-
-.apod-details-banner {
+.apod-title, .apod-date {
     display: flex;
     align-content: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 97%;
+    margin: 2px auto;
+    padding: 15px 5px;
     background-color: #003e93;
     box-shadow: 0 2px 5px #00000025;
     color: #FFFFFF;
-    margin-top: -5px;
-    padding: 10px;
+    letter-spacing: .2rem;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.apod-date {
+    background-color: #363537;
+}
+
+.error-banners {
+    padding: 20px;
+}
+
+.error-icon {
+    margin-right: 10px;
 }
 
 .apod-details-main {
+    width: 97%;
+    margin: 2px auto;
     padding: 10px;
     line-height: 1.25;
     color: #4b4e52;
 }
 
-.detail {
-    margin: 0;
-}
-
-.apod-title {
-    font-weight: 600;
-}
-
 .apod-author {
-    
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: grey;
+    font-size: 14px;
 }
 
-.apod-description {
-    max-height: 150px;
-    overflow: scroll;
+.load-more-btn {
+    display: block;
+    width: 200px;
+    padding: 15px 10px;
+    margin: 30px auto 40px auto;
+    background-color: #FF4420;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 10px #00000058;
+    font-size: 1.4em;
+    letter-spacing: .15rem;
+    transition: all .3s;
+}
+
+.load-more-btn:hover {
+    background-color: #003e93;
+    cursor: pointer;
 }
