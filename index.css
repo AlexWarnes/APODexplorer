@@ -1,0 +1,130 @@
+body * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    color: #FFFFFF;
+    background-color: #363537;
+    box-shadow: 0 2px 5px #00000025;
+    font-weight: 200;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    letter-spacing: .4rem;
+}
+
+.nav-about {
+    letter-spacing: .15rem;
+}
+
+header {
+    padding: 80px 30px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px #00000025;
+}
+
+.headings {
+    width: 320px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.word-1 {
+    color: #FF4420;
+    font-weight: 700;
+    font-family: 'Audiowide', cursive;
+}
+
+.word-2 {
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .25rem;
+}
+
+header .word-2 {
+    color: #003e93;
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    color: #000000;
+}
+
+.feed-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.apod-feed {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.apod-card {
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 5px #00000045;
+    border-radius: 5px;
+}
+
+.apod-image {
+    width: 100%;
+    box-shadow: 0 2px 5px #00000055;
+}
+
+/* .apod-details {
+    padding: 0 10px;
+} */
+
+.apod-details-banner {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #003e93;
+    box-shadow: 0 2px 5px #00000025;
+    color: #FFFFFF;
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.apod-details-main {
+    padding: 10px;
+    line-height: 1.25;
+    color: #4b4e52;
+}
+
+.detail {
+    margin: 0;
+}
+
+.apod-title {
+    font-weight: 600;
+}
+
+.apod-author {
+    
+}
+
+.apod-description {
+    max-height: 150px;
+    overflow: scroll;
+}
