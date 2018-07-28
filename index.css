@@ -83,7 +83,7 @@ header .word-2 {
 
 .apod-card {
     width: 100%;
-    margin: 20px 0;
+    margin: 20px 0 40px 0;
     box-shadow: 0 0 5px #00000045;
     border-radius: 5px;
 }
@@ -94,12 +94,10 @@ header .word-2 {
 }
 
 .apod-title, .apod-date {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
     width: 97%;
     margin: 2px auto;
-    padding: 15px 5px;
+    padding: 15px;
     background-color: #003e93;
     box-shadow: 0 2px 5px #00000025;
     color: #FFFFFF;
@@ -153,4 +151,49 @@ header .word-2 {
 .load-more-btn:hover {
     background-color: #003e93;
     cursor: pointer;
+}
+
+.about-main {
+    padding: 20px;
+}
+
+.about-main>section {
+    margin: 30px auto 50px auto;
+}
+
+.about-link {
+    padding: 10px;
+    background-color: #4b4e52;
+    color: white; 
+    border: none;
+    box-shadow: 4px 4px 10px #00000015;
+    transition: all .3s;
+}
+
+.about-link:hover {
+    background-color: #FF4420;
+    box-shadow: 2px 2px 5px #00000025;
+}
+
+.about-link-icon {
+    margin-left: 10px;
+}
+
+.social-media {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+    width: 90%;
+    height: 50px;
+	margin: 30px auto 30px auto;
+	font-size: 1.25em;
+}
+
+.social-icon {
+    color: #363537;
+	transition: all .3s;
+}
+
+.social-icon:hover {
+    font-size: larger;
 }
