@@ -159,6 +159,7 @@ header .word-2 {
 
 .about-main>section {
     margin: 30px auto 50px auto;
+    max-width: 500px;
 }
 
 .about-link {
