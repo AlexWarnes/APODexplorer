@@ -24,7 +24,9 @@ function renderApodCard(apod) {
         case 'image':
             return `
                 <li class="apod-card">
-                    <img class="apod-media" src=${apod.url} alt=${apod.title}>
+                    <div class="imgBox">
+                        <img class="apod-media" src=${apod.url} alt=${apod.title}>
+                    </div>
                     <div class="apod-details">
                         <div class="apod-details-banner">
                             <p class="detail apod-title">${apod.title}</p>
