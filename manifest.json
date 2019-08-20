@@ -1,0 +1,46 @@
+{
+  "name": "APOD Explorer",
+  "short_name": "APOD",
+  "start_url": "/index.html",
+  "theme_color": "#4b4e52",
+  "background_color": "#4b4e52",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "128x128",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "64x64",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "32x32",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "24x24",
+          "type": "image/png"
+      },
+      {
+          "src": "/assets/orbit_512.png",
+          "sizes": "16x16",
+          "type": "image/png"
+      }
+  ]
+}
